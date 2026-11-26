@@ -1,4 +1,4 @@
-# Event Detection in Football Match Video
+# Precise Event Analysis in Football Videos
 
 This project finds 3 kinds of events in Bundesliga match video: challenges, passes ("play") and throw-ins. For each event, the model gives the time in the video and a confidence score. The task and the data come from the Kaggle competition [DFL - Bundesliga Data Shootout](https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout). The model has 2 stages. A frame classifier scores each video frame. Then a 1D CNN reads the sequence of frame scores and finds the time of each event.
 
