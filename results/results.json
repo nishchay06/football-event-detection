@@ -1,0 +1,54 @@
+{
+  "source": "notebooks/BTP_Model.ipynb, saved output of the stage 2 training cell",
+  "metric": "event-detection mAP (DFL competition metric), mean over 3 events x 5 tolerances",
+  "stage": "stage 2 (1D CNN), 30 epochs, validated after every 5th epoch",
+  "checkpoints": [
+    {
+      "epoch": 5,
+      "score": 0.7028
+    },
+    {
+      "epoch": 10,
+      "score": 0.6953
+    },
+    {
+      "epoch": 15,
+      "score": 0.7098
+    },
+    {
+      "epoch": 20,
+      "score": 0.6962
+    },
+    {
+      "epoch": 25,
+      "score": 0.7123
+    }
+  ],
+  "best": {
+    "epoch": 25,
+    "score": 0.7123,
+    "ap": {
+      "challenge": {
+        "0.30": 0.7123,
+        "0.40": 0.7299,
+        "0.50": 0.7299,
+        "0.60": 0.7299,
+        "0.70": 0.7381
+      },
+      "play": {
+        "0.15": 0.7268,
+        "0.20": 0.7335,
+        "0.25": 0.7374,
+        "0.30": 0.7476,
+        "0.35": 0.7602
+      },
+      "throwin": {
+        "0.15": 0.6678,
+        "0.20": 0.6678,
+        "0.25": 0.6678,
+        "0.30": 0.6678,
+        "0.35": 0.6678
+      }
+    }
+  }
+}

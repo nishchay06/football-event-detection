@@ -1,0 +1,12 @@
+data/
+work/
+models/
+*.pth
+*.npz
+*.npy
+*.mp4
+kaggle.json
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
