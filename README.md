@@ -148,6 +148,15 @@ Team: Ramansh Goyal, Siddharth Dhaka. Advisor: Dr. Nisha Kandhoul.
 
 The evaluation metric in `src/dfl/metric.py` is adapted from the public evaluation metric of the Kaggle competition DFL - Bundesliga Data Shootout. The data comes from the same competition.
 
-## Author
+## Credits
 
-Code and experiments: Nishchay Mago.
+This project is adapted from the public Kaggle notebook ["Train DFL Effnet+1DCNN [CV0.77]"](https://www.kaggle.com/code/kyoshioka47/train-dfl-effnet-1dcnn-cv0-77) by arutema47. That notebook builds on ideas from the solutions of Psi and camaro, and on tito's "DFL benchmark training" notebook.
+
+Data sources:
+
+- Stage 1 frame probabilities: the ["dfl-cv077"](https://www.kaggle.com/datasets/kyoshioka47/dflcv077) dataset by arutema47. It is linked, not copied, because no licence is stated.
+- Helper files: ["dflFiles"](https://www.kaggle.com/datasets/its7171/dflfiles) by tito (CC0).
+- Video and labels: the Kaggle competition DFL - Bundesliga Data Shootout (2022).
+
+My work: ran and trained the stage 2 temporal 1D CNN on Colab, evaluated it with the competition metric, and restructured the code into modules with a config, tests, figures and this documentation.
+

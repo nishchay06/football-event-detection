@@ -1,0 +1,7 @@
+football-event-detection
+
+Adapted from "Train DFL Effnet+1DCNN [CV0.77]" by arutema47
+https://www.kaggle.com/code/kyoshioka47/train-dfl-effnet-1dcnn-cv0-77
+Licensed under the Apache License, Version 2.0.
+
+Modifications (2026) by Nishchay Mago: restructured into modules, config, tests and documentation.
